@@ -42,7 +42,7 @@ String logoText=driver.findElement(By.xpath("//div[text()='Swag Labs']")).getTex
         userPassword.sendKeys("secuce");
         submitBtn.click();
        String logoText=driver.findElement(By.xpath("//div[text()='Swag Labs']")).getText();
-       Assert.assertEquals(logoText,"Swa Labs");
+       Assert.assertEquals(logoText,"Swag Labs");
 
 
 }
