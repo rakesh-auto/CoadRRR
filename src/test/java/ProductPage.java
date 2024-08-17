@@ -25,13 +25,6 @@ public class ProductPage {
         String succesMassege= driver.findElement(By.xpath("//h2[text()='Login to your account']")).getText();
 
         Assert.assertEquals(succesMassege,"Login to your account");
-
-
-
-
-
-
-
     }
     @AfterMethod
     public void tearDown(){
